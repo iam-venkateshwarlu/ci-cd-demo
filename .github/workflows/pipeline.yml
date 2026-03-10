@@ -1,4 +1,4 @@
-name: CICD RND Pipeline
+name: CI-CD-DEMO Pipeline
 
 on:
   push:
