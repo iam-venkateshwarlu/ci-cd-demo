@@ -16,10 +16,10 @@ jobs:
 
     # SonarCloud Scan
     - name: Run SonarCloud Scan
-      uses: SonarSource/sonarqube-scan-action@master
+      uses: SonarSource/sonarqube-scan-action@v2
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        SONAR_HOST_URL: http://sonarcloud.io
+        SONAR_HOST_URL: https://sonarcloud.io
 
     # secret scanning
   #  - name: Run GitLeaks Secret Scan
